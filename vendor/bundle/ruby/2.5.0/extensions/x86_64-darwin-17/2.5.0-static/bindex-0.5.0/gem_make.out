@@ -1,0 +1,15 @@
+current directory: /Users/kazoo/Desktop/rails/HerokuApp/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+/Users/kazoo/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20180528-70657-e3tx2y.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kazoo/Desktop/rails/HerokuApp/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/kazoo/Desktop/rails/HerokuApp/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/kazoo/Desktop/rails/HerokuApp/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20180528-70657-5jn4kq/bindex
