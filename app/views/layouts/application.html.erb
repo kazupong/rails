@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <%= image_tag "flydata_logo.png", width: 130 %>
-    <hr>
-    <title>Merchandise Management</title>
+    <title>Kazu's Rails Heroku Demo</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <%= image_tag "flydata_logo.png", width: 130 %>
+    <hr>
     <%= yield %>
   </body>
 </html>
